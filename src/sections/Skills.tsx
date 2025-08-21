@@ -22,8 +22,17 @@ export function Skills({ containerClass }: { containerClass: string }) {
                 {group.items.map((s) => (
                   <Badge
                     key={s}
-                    variant="secondary"
-                    className="px-3 py-1 rounded-2xl text-sm"
+                    variant="outline"
+                    className="
+                      rounded-2xl px-3 py-1 text-sm
+                      bg-white/60 dark:bg-white/5
+                      border border-slate-200/70 dark:border-white/10
+                      text-slate-700 dark:text-slate-200
+                      shadow-sm transition-colors
+                      hover:bg-white/80 dark:hover:bg-white/10
+                      hover:border-slate-300/70 dark:hover:border-white/15
+                      hover:ring-2 hover:ring-sky-400/15
+                    "
                   >
                     {s}
                   </Badge>

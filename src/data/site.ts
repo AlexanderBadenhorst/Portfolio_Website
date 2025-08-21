@@ -52,37 +52,37 @@ export const certificates: Certificate[] = [
     title: "Intro to Programming",
     org: "Provider: Code College",
     date: "Obtained: 2024",
-    url: "/certs/alexander-badenhorst-intro-to-programming.pdf",
+    url: "certs/alexander-badenhorst-intro-to-programming.pdf",
   },
   {
     title: "JavaScript",
     org: "Provider: Code College",
     date: "Obtained: 2024",
-    url: "/certs/alexander-badenhorst-javascript.pdf",
+    url: "certs/alexander-badenhorst-javascript.pdf",
   },
   {
     title: "HTMX",
     org: "Provider: Code College",
     date: "Obtained: 2024",
-    url: "/certs/alexander-badenhorst-htmx.pdf",
+    url: "certs/alexander-badenhorst-htmx.pdf",
   },
   {
     title: "Node.js",
     org: "Provider: Code College",
     date: "Obtained: 2024",
-    url: "/certs/alexander-badenhorst-nodejs.pdf",
+    url: "certs/alexander-badenhorst-nodejs.pdf",
   },
   {
     title: "React",
     org: "Provider: Code College",
     date: "Obtained: 2024",
-    url: "/certs/alexander-badenhorst-react.pdf",
+    url: "certs/alexander-badenhorst-react.pdf",
   },
   {
     title: "SQL",
     org: "Provider: Code College",
     date: "Obtained: 2025",
-    url: "/certs/alexander-badenhorst-sql.pdf",
+    url: "certs/alexander-badenhorst-sql.pdf",
   },
 ];
 
