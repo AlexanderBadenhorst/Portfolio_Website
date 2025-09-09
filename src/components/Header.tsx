@@ -54,17 +54,20 @@ export function Header({
             </a>
           </Button>
 
-          {resume.enabled && (
+ {resume.enabled && (
   <Button
+    asChild
     size="sm"
     variant="outline"
     className="rounded-2xl"
-    disabled
-    title="Resume updating — coming soon"
+    title="Open my resume (PDF)"
   >
-    <Download className="w-4 h-4 mr-1" /> Resume
+    <a href={resume.url} target="_blank" rel="noopener noreferrer">
+      <Download className="w-4 h-4 mr-1" /> Resume
+    </a>
   </Button>
 )}
+
 
 
           <Button

@@ -182,4 +182,7 @@ export const projects = [
 ] satisfies Project[];
 
 
-export const resume = { enabled: true, url: "#" };
+export const resume = { 
+  enabled: true, 
+  url: "CV/Alexander_Badenhorst_CV_1pager.pdf"
+}
