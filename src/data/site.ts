@@ -111,24 +111,6 @@ export const projects = [
     repo: "https://github.com/AlexanderBadenhorst/Portfolio",
   },
 
-  // --- SQL projects (repo links; keep your description about triggers/views) ---
-  {
-    name: "ShoppingCartDB (PostgreSQL)",
-    blurb:
-      "Feature-complete SQL project with products, carts, orders, triggers, and analytics views.",
-    tags: ["PostgreSQL", "SQL", "Triggers", "Views"],
-    kind: "sql",
-    repo: "https://github.com/AlexanderBadenhorst/ShoppingCartDB",
-  },
-  {
-    name: "DatingDB (SQL Storytelling)",
-    blurb:
-      "ERD + queries demonstrating joins, window functions, and CTEs on a clean, reproducible dataset.",
-    tags: ["PostgreSQL", "Data Modeling", "CTEs"],
-    kind: "sql",
-    repo: "https://github.com/AlexanderBadenhorst/DatingDB",
-  },
-
   // --- MERN apps (backend + frontend folders where applicable) ---
   {
     name: "Quote App (MERN)",
@@ -179,6 +161,24 @@ export const projects = [
     kind: "mern",
     repo: "https://github.com/AlexanderBadenhorst/User_Authentication",
   },
+  // --- SQL projects (repo links; keep your description about triggers/views) ---
+  {
+    name: "ShoppingCartDB (PostgreSQL)",
+    blurb:
+      "Feature-complete SQL project with products, carts, orders, triggers, and analytics views.",
+    tags: ["PostgreSQL", "SQL", "Triggers", "Views"],
+    kind: "sql",
+    repo: "https://github.com/AlexanderBadenhorst/ShoppingCartDB",
+  },
+  {
+    name: "DatingDB (SQL Storytelling)",
+    blurb:
+      "ERD + queries demonstrating joins, window functions, and CTEs on a clean, reproducible dataset.",
+    tags: ["PostgreSQL", "Data Modeling", "CTEs"],
+    kind: "sql",
+    repo: "https://github.com/AlexanderBadenhorst/DatingDB",
+  },
+  // --- Java projects (console apps) ---
   {
     name: "Hangman Game (Java)",
     blurb:
