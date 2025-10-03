@@ -20,7 +20,7 @@ export type Project = {
   tags: string[];
   repo?: string; // GitHub repo (fallback if no live)
   live?: string; // Live URL (preferred if present)
-  kind?: "sql" | "mern" | "t3" | "react" | "node" | "other";
+  kind?: "sql" | "mern" | "t3" | "react" | "node" | "Java" | "other";
 };
 export type SkillGroup = { label: string; items: string[] };
 
@@ -179,10 +179,17 @@ export const projects = [
     kind: "mern",
     repo: "https://github.com/AlexanderBadenhorst/User_Authentication",
   },
+  {
+    name: "Hangman Game (Java)",
+    blurb:
+      "A console-based Hangman game built in Java. Demonstrates beginner to intermediate OOP concepts such as classes, methods, arrays, and control flow.",
+    tags: ["Java", "OOP", "Console App"],
+    kind: "Java",
+    repo: "https://github.com/AlexanderBadenhorst/Java_Beginner/tree/f218b9bec64a40414f697d59db07c5e166577ee8/src/HangmanGame",
+  },
 ] satisfies Project[];
 
-
-export const resume = { 
-  enabled: true, 
-  url: "CV/Alexander_Badenhorst_CV_1pager.pdf"
-}
+export const resume = {
+  enabled: true,
+  url: "CV/Alexander_Badenhorst_CV_1pager.pdf",
+};
