@@ -147,14 +147,14 @@ export const projects = [
     kind: "mern",
     repo: "https://github.com/AlexanderBadenhorst/MERN-Chat-App",
   },
-  {
-    name: "Bookstore (MERN)",
-    blurb:
-      "Book catalog + cart. Separate backend and frontend workspaces; REST API, pagination, and protected operations.",
-    tags: ["MERN", "React", "Node", "Express", "MongoDB"],
-    kind: "mern",
-    repo: "https://github.com/AlexanderBadenhorst/Bookstore-MERN-Stack",
-  },
+  // {
+  //   name: "Bookstore (MERN)",
+  //   blurb:
+  //     "Book catalog + cart. Separate backend and frontend workspaces; REST API, pagination, and protected operations.",
+  //   tags: ["MERN", "React", "Node", "Express", "MongoDB"],
+  //   kind: "mern",
+  //   repo: "https://github.com/AlexanderBadenhorst/Bookstore-MERN-Stack",
+  // },
   {
     name: "Todo App (React)",
     blurb:
