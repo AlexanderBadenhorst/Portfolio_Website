@@ -40,11 +40,34 @@ export const groupedSkills: SkillGroup[] = [
     label: "Frontend",
     items: ["React", "Next.js", "TypeScript", "TailwindCSS", "Vite", "HTMX"],
   },
-  { label: "Full-stack stacks", items: ["T3 Stack", "MERN Stack"] },
-  { label: "Backend & APIs", items: ["Node.js", "Express", "REST APIs"] },
-  { label: "Databases & ORM", items: ["PostgreSQL", "Prisma", "MongoDB"] },
-  { label: "Tooling", items: ["Git/GitHub"] },
-  { label: "Java", items: ["Java"] },
+  { 
+    label: "Full-stack stacks", 
+    items: ["T3 Stack", "MERN Stack"] 
+  },
+  { 
+    label: "Backend & APIs", 
+    items: ["Node.js", "Express", "REST APIs"] 
+  },
+  { 
+    label: "Databases & ORM", 
+    items: ["PostgreSQL", "Prisma", "MongoDB", "SQL", "pgAdmin"] 
+  },
+  { 
+    label: "Tooling", 
+    items: ["Git/GitHub", "VS Code", "Postman"] 
+  },
+  { 
+    label: "Java", 
+    items: [
+      "Java", 
+      "Swing (GUI)", 
+      "OOP", 
+      "Collections Framework", 
+      "Serialization & File I/O",
+      "MVC Architecture",
+      "Debugging"
+    ] 
+  },
 ];
 
 export const certificates: Certificate[] = [
