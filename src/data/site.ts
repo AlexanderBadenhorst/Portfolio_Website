@@ -96,6 +96,12 @@ export const certificates: Certificate[] = [
     date: "Obtained: 2025",
     url: "certs/alexander-badenhorst-sql.pdf",
   },
+   {
+    title: "Java Beginner",
+    org: "Provider: Code College",
+    date: "Obtained: 2025",
+    url: "certs/alexander-badenhorst-JavaBeginner.pdf",
+  },
 ];
 
 // src/data/projects.ts (or wherever you keep them)
