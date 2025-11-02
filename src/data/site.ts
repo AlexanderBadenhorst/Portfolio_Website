@@ -117,24 +117,6 @@ export const projects = [
     repo: "https://github.com/AlexanderBadenhorst/Portfolio",
   },
 
-  // --- MERN apps (backend + frontend folders where applicable) ---
-  {
-    name: "Quote App (MERN)",
-    blurb:
-      "Full-stack quotes CRUD app. MongoDB/Express backend with a React client UI.",
-    tags: ["MERN", "React", "Node", "Express", "MongoDB"],
-    kind: "mern",
-    repo: "https://github.com/AlexanderBadenhorst/Quote-App-MERN",
-    // live: "https://…" // add once deployed
-  },
-  {
-    name: "Chat App (MERN)",
-    blurb:
-      "Chat UI with a Node/Express API. Emphasis on clean component structure and REST endpoints.",
-    tags: ["MERN", "React", "Node", "Express", "MongoDB"],
-    kind: "mern",
-    repo: "https://github.com/AlexanderBadenhorst/MERN-Chat-App",
-  },
   // {
   //   name: "Bookstore (MERN)",
   //   blurb:
@@ -158,6 +140,24 @@ export const projects = [
     tags: ["React", "CRA", "Firebase (hosting)"],
     kind: "mern",
     repo: "https://github.com/AlexanderBadenhorst/library-app",
+  },
+  // --- MERN apps (backend + frontend folders where applicable) ---
+  // {
+  //   name: "Quote App (MERN)",
+  //   blurb:
+  //     "Full-stack quotes CRUD app. MongoDB/Express backend with a React client UI.",
+  //   tags: ["MERN", "React", "Node", "Express", "MongoDB"],
+  //   kind: "mern",
+  //   repo: "https://github.com/AlexanderBadenhorst/Quote-App-MERN",
+  //   // live: "https://…" // add once deployed
+  // },
+  {
+    name: "Chat App (MERN)",
+    blurb:
+      "Chat UI with a Node/Express API. Emphasis on clean component structure and REST endpoints.",
+    tags: ["MERN", "React", "Node", "Express", "MongoDB"],
+    kind: "mern",
+    repo: "https://github.com/AlexanderBadenhorst/MERN-Chat-App",
   },
   {
     name: "User Authentication (MERN)",
@@ -184,7 +184,7 @@ export const projects = [
     kind: "sql",
     repo: "https://github.com/AlexanderBadenhorst/DatingDB",
   },
-  // --- Java projects (console apps) ---
+  // --- Java projects ---
   {
     name: "Hangman Game (Java)",
     blurb:
@@ -193,6 +193,16 @@ export const projects = [
     kind: "Java",
     repo: "https://github.com/AlexanderBadenhorst/Java_Beginner/tree/f218b9bec64a40414f697d59db07c5e166577ee8/src/HangmanGame",
   },
+  {
+  name: "Song Library Manager (Java, Swing)",
+  blurb:
+    "A desktop music library manager built with Java Swing. Demonstrates MVC structure, collections and custom comparators, search and sorting, and Java serialization for saving and loading the library.",
+  tags: ["Java", "Swing", "OOP", "Desktop App", "Collections", "Serialization", "MVC"],
+  kind: "Java",
+  repo: "https://github.com/AlexanderBadenhorst/Java_Advanced/tree/8395d92903e9526c9fa6b87fa7efc3ccd78c993b/src/JavaSongLibraryApp",
+},
+
+
 ] satisfies Project[];
 
 export const resume = {
