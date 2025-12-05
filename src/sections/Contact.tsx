@@ -17,7 +17,10 @@ export function Contact({ containerClass }: { containerClass: string }) {
                 <Mail className="w-4 h-4" />
                 <a
                   className="underline"
-                  href={gmailComposeUrl(profile.email, "Hello from your portfolio")}
+                  href={gmailComposeUrl(
+                    profile.email,
+                    "Hello from your portfolio"
+                  )}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -54,8 +57,10 @@ export function Contact({ containerClass }: { containerClass: string }) {
 
             <div className="text-sm opacity-80">
               <p>
-                Open to junior full-stack roles, SQL-heavy roles, and freelance projects.
-                Prefer React/TypeScript stacks, PostgreSQL, and clean UI work.
+                Open to junior full-stack and backend roles with a focus on
+                Java/Spring Boot, REST APIs, and SQL. Comfortable working with
+                React/TypeScript, PostgreSQL, and modern development tooling.
+                Also available for freelance project work.
               </p>
             </div>
           </div>

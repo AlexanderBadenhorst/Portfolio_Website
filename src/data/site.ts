@@ -26,49 +26,86 @@ export type SkillGroup = { label: string; items: string[] };
 
 export const profile: Profile = {
   name: "Alexander Badenhorst",
-  title: "Full-Stack Developer (React • Node • SQL)",
+  title:
+    "Full-Stack Developer • Java • Spring Boot • MERN Stack • TypeScript • SQL",
   location: "Gauteng, South Africa",
   email: "alexander.baden15.ab@gmail.com",
   github: "https://github.com/AlexanderBadenhorst",
   linkedin: "https://www.linkedin.com/in/alexander-b-435b90a4/",
   summary:
-    "Early-career full-stack developer focused on React/TypeScript and PostgreSQL. Comfortable designing schemas, building REST APIs, and shipping clean, accessible UIs with Tailwind. Seeking a junior role where I can contribute quickly and grow.",
+    "Full-stack developer specialising in Java/Spring Boot and React/TypeScript. I build robust REST APIs using Spring Boot with DTO validation, layered architecture, Swagger documentation, and Dockerized environments. On the frontend, I create clean, accessible UIs in React and Tailwind. Strong SQL foundation with hands-on work in schema design, triggers, views, and analytics queries. Complemented by MERN stack experience and solid Java OOP fundamentals. I’m driven, reliable, and focused on delivering maintainable, production-ready solutions.",
 };
 
 export const groupedSkills: SkillGroup[] = [
   {
     label: "Frontend",
-    items: ["React", "Next.js", "TypeScript", "TailwindCSS", "Vite", "HTMX"],
-  },
-  { 
-    label: "Full-stack stacks", 
-    items: ["T3 Stack", "MERN Stack"] 
-  },
-  { 
-    label: "Backend & APIs", 
-    items: ["Node.js", "Express", "REST APIs"] 
-  },
-  { 
-    label: "Databases & ORM", 
-    items: ["PostgreSQL", "Prisma", "MongoDB", "SQL", "pgAdmin"] 
-  },
-  { 
-    label: "Tooling", 
-    items: ["Git/GitHub", "VS Code", "Postman"] 
-  },
-  { 
-    label: "Java", 
     items: [
-      "Java", 
-      "Swing (GUI)", 
-      "OOP", 
-      "Collections Framework", 
+      "React",
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Vite",
+      "HTMX",
+      "Framer Motion",
+    ],
+  },
+  {
+    label: "Full-stack stacks",
+    items: ["T3 Stack", "MERN Stack", "Java/Spring Boot Stack"],
+  },
+  {
+    label: "Backend & APIs",
+    items: [
+      "Java Spring Boot",
+      "Node.js",
+      "Express",
+      "REST APIs",
+      "DTO Validation",
+      "Swagger/OpenAPI",
+      "JWT/Auth Flows",
+      "Layered Architecture (Controller • Service • Repository)",
+    ],
+  },
+  {
+    label: "Databases & ORM",
+    items: [
+      "PostgreSQL",
+      "SQL",
+      "MongoDB",
+      "Prisma",
+      "pgAdmin",
+      "Schema Design",
+      "Joins, CTEs, Window Functions",
+      "Triggers & Views",
+    ],
+  },
+  {
+    label: "DevOps & Tooling",
+    items: [
+      "Docker",
+      "Git/GitHub",
+      "Postman",
+      "Swagger UI",
+      "VS Code",
+      "IntelliJ",
+      "Maven",
+    ],
+  },
+  {
+    label: "Java",
+    items: [
+      "Java (Intermediate/Advanced)",
+      "Spring Boot Basics",
+      "Swing (GUI)",
+      "OOP Principles",
+      "Collections Framework",
       "Serialization & File I/O",
       "MVC Architecture",
-      "Debugging"
-    ] 
+      "Debugging & Error Handling",
+    ],
   },
 ];
+
 
 export const certificates: Certificate[] = [
   {
@@ -119,21 +156,27 @@ export const certificates: Certificate[] = [
     date: "Obtained: 2025",
     url: "certs/alexander-badenhorst-sql.pdf",
   },
-   {
+  {
     title: "Java Beginner",
     org: "Provider: Code College",
     date: "Obtained: 2025",
     url: "certs/alexander-badenhorst-JavaBeginner.pdf",
   },
+  {
+    title: "Java Advanced",
+    org: "Provider: Code College",
+    date: "Obtained: 2025",
+    url: "certs/alexander-badenhorst-JavaAdvanced.pdf",
+  },
 ];
 
-// src/data/projects.ts (or wherever you keep them)
+
 export const projects = [
   // --- Client-only / static ---
   {
     name: "First Portfolio (Vanilla SPA)",
     blurb:
-      "My first portfolio: a single-page site with links to early JSFiddle demos. Built with plain HTML/CSS/JS and hosted on GitHub Pages.",
+      "My first portfolio site built with vanilla HTML/CSS/JS. Demonstrates early frontend fundamentals, DOM manipulation, and component-style layout without frameworks. Hosted on GitHub Pages.",
     tags: ["SPA", "Vanilla JS", "HTML", "CSS", "GitHub Pages"],
     kind: "react",
     live: "https://alexanderbadenhorst.github.io/Portfolio/",
@@ -148,18 +191,18 @@ export const projects = [
   //   kind: "mern",
   //   repo: "https://github.com/AlexanderBadenhorst/Bookstore-MERN-Stack",
   // },
-  {
-    name: "Todo App (React)",
-    blurb:
-      "React (CRA) todo app demonstrating CRUD patterns and component state management.",
-    tags: ["React", "CRA", "Frontend"],
-    kind: "mern",
-    repo: "https://github.com/AlexanderBadenhorst/todo-app",
-  },
+  // {
+  //   name: "Todo App (React)",
+  //   blurb:
+  //     "React (CRA) todo app demonstrating CRUD patterns and component state management.",
+  //   tags: ["React", "CRA", "Frontend"],
+  //   kind: "mern",
+  //   repo: "https://github.com/AlexanderBadenhorst/todo-app",
+  // },
   {
     name: "Library App (React)",
     blurb:
-      "Library management UI (borrow/return). React (CRA) front-end; repo includes Firebase hosting config.",
+      "React UI for managing library borrow/return workflows. Built with component-based design, reusable hooks, clean state management, and Firebase hosting.",
     tags: ["React", "CRA", "Firebase (hosting)"],
     kind: "mern",
     repo: "https://github.com/AlexanderBadenhorst/library-app",
@@ -177,7 +220,7 @@ export const projects = [
   {
     name: "Chat App (MERN)",
     blurb:
-      "Chat UI with a Node/Express API. Emphasis on clean component structure and REST endpoints.",
+      "Full MERN chat application with a Node/Express API and React client. Focus on clean component structure, REST API design, reusable services, and modular backend routes.",
     tags: ["MERN", "React", "Node", "Express", "MongoDB"],
     kind: "mern",
     repo: "https://github.com/AlexanderBadenhorst/MERN-Chat-App",
@@ -185,7 +228,7 @@ export const projects = [
   {
     name: "User Authentication (MERN)",
     blurb:
-      "Email/password auth with a Node/Express API and a React client. Demonstrates protected routes and auth flows.",
+      "Authentication system built with Node/Express and React. Implements JWT auth, protected API routes, password hashing, and structured login/register flows.",
     tags: ["MERN", "Auth", "React", "Node", "Express", "MongoDB"],
     kind: "mern",
     repo: "https://github.com/AlexanderBadenhorst/User_Authentication",
@@ -202,7 +245,7 @@ export const projects = [
   {
     name: "DatingDB (SQL Storytelling)",
     blurb:
-      "ERD + queries demonstrating joins, window functions, and CTEs on a clean, reproducible dataset.",
+      "SQL exploration project demonstrating joins, window functions, CTEs, and reproducible queries on a designed dataset. Highlights structured analytical query design and schema reasoning.",
     tags: ["PostgreSQL", "Data Modeling", "CTEs"],
     kind: "sql",
     repo: "https://github.com/AlexanderBadenhorst/DatingDB",
@@ -211,19 +254,37 @@ export const projects = [
   {
     name: "Hangman Game (Java)",
     blurb:
-      "A console-based Hangman game built in Java. Demonstrates beginner to intermediate OOP concepts such as classes, methods, arrays, and control flow.",
+      "Console-based Hangman built with Java. Demonstrates OOP design, classes, methods, arrays, control flow, and clean separation of game logic.",
     tags: ["Java", "OOP", "Console App"],
     kind: "Java",
     repo: "https://github.com/AlexanderBadenhorst/Java_Beginner/tree/f218b9bec64a40414f697d59db07c5e166577ee8/src/HangmanGame",
   },
   {
-  name: "Song Library Manager (Java, Swing)",
+    name: "Song Library Manager (Java, Swing)",
+    blurb:
+      "A desktop music library manager built with Java Swing. Demonstrates MVC structure, collections and custom comparators, search and sorting, and Java serialization for saving and loading the library.",
+    tags: [
+      "Java",
+      "Swing",
+      "OOP",
+      "Desktop App",
+      "Collections",
+      "Serialization",
+      "MVC",
+    ],
+    kind: "Java",
+    repo: "https://github.com/AlexanderBadenhorst/Java_Advanced/tree/8395d92903e9526c9fa6b87fa7efc3ccd78c993b/src/JavaSongLibraryApp",
+  },
+    // --- Java + Spring Boot projects ---
+   {
+  name: "Library API (Spring Boot)",
   blurb:
-    "A desktop music library manager built with Java Swing. Demonstrates MVC structure, collections and custom comparators, search and sorting, and Java serialization for saving and loading the library.",
-  tags: ["Java", "Swing", "OOP", "Desktop App", "Collections", "Serialization", "MVC"],
+    "Enterprise-style REST API built with Java and Spring Boot. Implements layered architecture (Controller • Service • Repository), DTO validation, custom exceptions, and Swagger/OpenAPI documentation. Integrates with PostgreSQL for persistent storage with clean entity mapping.",
+  tags: ["Java", "Spring Boot", "REST APIs", "DTO Validation", "Swagger/OpenAPI", "PostgreSQL"],
   kind: "Java",
-  repo: "https://github.com/AlexanderBadenhorst/Java_Advanced/tree/8395d92903e9526c9fa6b87fa7efc3ccd78c993b/src/JavaSongLibraryApp",
+  repo: "https://github.com/AlexanderBadenhorst/Spring_Library_App",
 },
+
 
 
 ] satisfies Project[];

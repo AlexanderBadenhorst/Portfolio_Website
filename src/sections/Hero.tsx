@@ -17,7 +17,10 @@ export function Hero({ containerClass }: { containerClass: string }) {
   const certLabel = certCount === 1 ? "Cert" : "Certs";
 
   return (
-    <section className={`${containerClass} section-soft pt-14 sm:pt-20 pb-10 relative`} id="about">
+    <section
+      className={`${containerClass} section-soft pt-14 sm:pt-20 pb-10 relative`}
+      id="about"
+    >
       {/* subtle parallax-ish accent ring */}
       <motion.div
         aria-hidden
@@ -128,9 +131,26 @@ export function Hero({ containerClass }: { containerClass: string }) {
               </CardTitle>
             </CardHeader>
             <CardContent className="text-sm space-y-2">
-              <div>🚀 Shipped full-stack projects (React/TS • Node/Express • PostgreSQL)</div>
-              <div>🗄️ Strong SQL: schema design, joins, window functions, triggers</div>
-              <div>✅ Certifications: Intro to Programming, JavaScript, HTMX, Node.js, React, SQL</div>
+              <div>
+                🚀 Full-stack development: Java/Spring Boot, React/TS,
+                Node/Express
+              </div>
+              <div>
+                🔧 Spring Boot: REST APIs, DTOs, layered architecture,
+                Swagger/OpenAPI
+              </div>
+              <div>🧪 Swagger-tested, Docker-ready backend environments</div>
+              <div>
+                🐳 Docker: containerized backend services for local development
+              </div>
+              <div>
+                🗄️ SQL expertise: schema design, joins, CTEs, triggers, views
+              </div>
+              <div>📦 MERN stack projects and authentication flows</div>
+              <div>
+                🎓 Certifications: Java, JavaScript, HTMX, Node.js, React, SQL,
+                MERN, Web Dev Bootcamp
+              </div>
             </CardContent>
           </Card>
         </motion.div>
