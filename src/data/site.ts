@@ -168,6 +168,12 @@ export const certificates: Certificate[] = [
     date: "Obtained: 2025",
     url: "certs/alexander-badenhorst-JavaAdvanced.pdf",
   },
+  {
+    title: "Spring Framework",
+    org: "Provider: Code College",
+    date: "Obtained: 2025",
+    url: "certs/alexander-badenhorst-spring-framework.pdf",
+  },
 ];
 
 
