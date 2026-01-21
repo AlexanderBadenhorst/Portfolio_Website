@@ -145,7 +145,7 @@ export const certificates: Certificate[] = [
     url: "certs/alexander-badenhorst-MERN-Stack.pdf",
   },
   {
-    title: "Web Development",
+    title: "Web Developer Bootcamp",
     org: "Provider: Code College",
     date: "Obtained: 2025",
     url: "certs/alexander-badenhorst-WebDeveloperBootcamp.pdf",
@@ -173,6 +173,12 @@ export const certificates: Certificate[] = [
     org: "Provider: Code College",
     date: "Obtained: 2025",
     url: "certs/alexander-badenhorst-spring-framework.pdf",
+  },
+  {
+    title: "Java Developer Bootcamp",
+    org: "Provider: Code College",
+    date: "Obtained: 2025",
+    url: "certs/alexander-badenhorst-JavaDeveloperBootcamp.pdf",
   },
 ];
 
