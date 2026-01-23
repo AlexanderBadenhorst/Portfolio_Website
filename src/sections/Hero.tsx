@@ -132,24 +132,32 @@ export function Hero({ containerClass }: { containerClass: string }) {
             </CardHeader>
             <CardContent className="text-sm space-y-2">
               <div>
-                🚀 Full-stack development: Java/Spring Boot, React/TS,
-                Node/Express
+                🚀 Full-stack development with a backend focus: Java/Spring
+                Boot, Node.js, React/TS
               </div>
               <div>
                 🔧 Spring Boot: REST APIs, DTOs, layered architecture,
-                Swagger/OpenAPI
-              </div>
-              <div>🧪 Swagger-tested, Docker-ready backend environments</div>
-              <div>
-                🐳 Docker: containerized backend services for local development
+                validation, Swagger/OpenAPI
               </div>
               <div>
-                🗄️ SQL expertise: schema design, joins, CTEs, triggers, views
+                🧪 Backend environments built with clean structure, unit-tested
+                endpoints, and Docker-ready deployments
               </div>
-              <div>📦 MERN stack projects and authentication flows</div>
               <div>
-                🎓 Certifications: Java, JavaScript, HTMX, Node.js, React, SQL,
-                MERN, Web Dev Bootcamp
+                🐳 Docker: containerized backend services for consistent local
+                development
+              </div>
+              <div>
+                🗄️ Strong SQL foundation: schema design, joins, CTEs, indexing,
+                triggers, and views
+              </div>
+              <div>
+                📦 Practical MERN experience, including authentication flows and
+                API-driven applications
+              </div>
+              <div>
+                🎓 Certified in Java Development, Spring Boot, SQL, JavaScript,
+                Node.js, React, HTMX, MERN, and full-stack web development
               </div>
             </CardContent>
           </Card>

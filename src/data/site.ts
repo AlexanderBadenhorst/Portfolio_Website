@@ -27,13 +27,13 @@ export type SkillGroup = { label: string; items: string[] };
 export const profile: Profile = {
   name: "Alexander Badenhorst",
   title:
-    "Full-Stack Developer • Java • Spring Boot • MERN Stack • TypeScript • SQL",
+    "Backend-Focused Full-Stack Developer • Java • Spring Boot • PostgreSQL • Node.js • React/TS",
   location: "Gauteng, South Africa",
   email: "alexander.baden15.ab@gmail.com",
   github: "https://github.com/AlexanderBadenhorst",
   linkedin: "https://www.linkedin.com/in/alexander-b-435b90a4/",
   summary:
-    "Full-stack developer specialising in Java/Spring Boot and React/TypeScript. I build robust REST APIs using Spring Boot with DTO validation, layered architecture, Swagger documentation, and Dockerized environments. On the frontend, I create clean, accessible UIs in React and Tailwind. Strong SQL foundation with hands-on work in schema design, triggers, views, and analytics queries. Complemented by MERN stack experience and solid Java OOP fundamentals. I’m driven, reliable, and focused on delivering maintainable, production-ready solutions.",
+    "Full-stack developer with a strong backend focus, specialising in Java/Spring Boot, REST API development, and PostgreSQL. I build reliable backend systems using DTO validation, layered architecture, Swagger/OpenAPI documentation, and Dockerised environments. On the frontend, I create clean and accessible interfaces using React and TypeScript. I have a solid foundation in SQL schema design, indexing, triggers, views, and analytics queries, supported by hands-on MERN stack experience and strong Java OOP fundamentals. I’m driven, adaptable, and committed to delivering maintainable, production-ready solutions.",
 };
 
 export const groupedSkills: SkillGroup[] = [
